@@ -65,15 +65,35 @@ body {
   /* font-size: var(--biggest-font-size); */
   font-weight: bolder;
   color: #fff;
-  /* padding-top: 5px; */
+  margin-top: -20px;
 }
 
 .search p {
   font-size: var(--h2-font-size);
-  margin-top: 8px;
-  padding-bottom: 10px;
+  margin-top: 15px;
+  padding-bottom: 20px;
   color: #fff;
 }
+
+.search p .text{
+  text-shadow: 1px 1px 10px #ffffff;
+  animation: color 8s infinite ease-in-out;
+}
+
+@keyframes color{
+  0%{color: orange}
+  10%{color: rgb(255, 39, 255)}
+  20%{color: rgb(63, 255, 63)}
+  30%{color: rgb(127, 127, 255)}
+  40%{color: red}
+  50%{color: violet} 
+  60%{color: rgb(198, 119, 255)}
+  70%{color: salmon}
+  80%{color: silver}
+  90%{color: pink}
+  100%{color: gold}
+}
+
 
 /* .search-box{
     height: 55px;
@@ -152,7 +172,6 @@ i {
   padding: 15px 20px;
   transition: bottom 0.7s ease-in-out;
   background: linear-gradient(to top, rgba(0,0,0,0.7), transparent);
-  /* background: linear-gradient(to top, rgba(0, 255, 170, 0.847)), transparent; */
 }
 
 .images .card:hover .details {
@@ -186,7 +205,7 @@ i {
   padding: 3px 8px;
   font-size: 1.1rem;
   background-color: #714dff;
-  color: #ffffff;
+  color: #fff;
 }
 
 .images img {
