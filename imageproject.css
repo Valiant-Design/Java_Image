@@ -100,7 +100,7 @@ body {
   left: 20px;
   top: 50%;
   font-size: 1.4rem;
-  color: #8d8d8d;
+  color: #8a6cff;
   transform: translateY(-50%);
 }
 
@@ -160,7 +160,7 @@ i {
 }
 
 .photographer {
-  color: #fff;
+  color: #8a6cff;
   display: flex;
   align-items: center;
 }
@@ -181,6 +181,14 @@ i {
   background-color: #fff;
 }
 
+.card .details button:hover {
+  cursor: pointer;
+  padding: 3px 8px;
+  font-size: 1.1rem;
+  background-color: #714dff;
+  color: #ffffff;
+}
+
 .images img {
   width: 100%;
 }
@@ -191,7 +199,7 @@ i {
   cursor: pointer;
   padding: 12px 27px;
   font-size: 1.2rem;
-  background-color: rgb(124, 255, 211);
+  background-color:  #8a6cff;
 }
 
 /* .text-glow {

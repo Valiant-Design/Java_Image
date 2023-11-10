@@ -6,8 +6,8 @@ const closeBtn = lightBox.querySelector(".uil-times");
 const downloadImgBtn = lightBox.querySelector(".uil-import");
 
 const apiKey = "8liDyJvIbCK0hAmOUUmJlL5rMGgXvmjA5wIKirow4fjedibChqQDdR4S";
-const perPage = 18;
-let currentPage = 1;
+const perPage = 17;
+let currentPage = 1; 
 let searchTerm = null;
 
 const downloadImg = (imgURL) => {
@@ -22,7 +22,7 @@ const downloadImg = (imgURL) => {
 
 const showLightbox = (name, img) => {
   lightBox.querySelector("img").src = img;
-  lightBox.querySelector("span").innerText= name;
+  lightBox.querySelector("span").innerText = name;
   downloadImgBtn.setAttribute("data-img", img);
   lightBox.classList.add("show");
   document.body.style.overflow = "hidden";
@@ -30,6 +30,7 @@ const showLightbox = (name, img) => {
 
 const hideLightbox = () => {
   lightBox.classList.remove("show"); 
+  document.body.style.overflow = "auto";
 }
 
 const generateHTML = (images) => {
