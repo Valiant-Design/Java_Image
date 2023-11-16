@@ -212,6 +212,7 @@ i {
 
 .images img {
   width: 100%;
+  cursor: pointer;
 }
 
 .gallery .load-more {
@@ -220,7 +221,7 @@ i {
   cursor: pointer;
   padding: 12px 27px;
   font-size: 1.2rem;
-  background-color:  #8a6cff;
+  background-color:#8a6cff;
 }
 
 /* .text-glow {
